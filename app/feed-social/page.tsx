@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from 'react'
 import { useUserStore } from '@/lib/store/user-store'
 import { MessageCircle, Heart, Share2, Award, TrendingUp, Briefcase, BookOpen } from 'lucide-react'

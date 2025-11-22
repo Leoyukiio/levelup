@@ -1,3 +1,5 @@
+'use client'
+
 import { useUserStore } from '@/lib/store/user-store'
 import { Card } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
