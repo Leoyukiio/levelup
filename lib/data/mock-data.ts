@@ -10,6 +10,7 @@ export interface User {
     completedMissions: number
     achievements: number
     avatar: string
+    role?: string
   }
   
   export interface Mission {
@@ -89,6 +90,7 @@ export interface User {
     completedMissions: 0,
     achievements: 0,
     avatar: "M",
+    role: "Profissional",
   }
   
   export const mockMissions: Mission[] = [
